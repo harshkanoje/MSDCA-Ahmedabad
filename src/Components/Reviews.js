@@ -3,7 +3,19 @@ import React from 'react';
 function Reviews() {
   return (
     <div style={{ backgroundColor: "#F5F3F4", borderRadius: "30px 0 0 0" , marginLeft:"20px"}}>
-      <h2>Reviews</h2>
+      <h2 style={{fontFamily: 'PT sans',
+    color: '#65A0FB',
+    fontSize: '50px',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginLeft: '28px'}}>Reviews</h2>
+    <h5 style={{flex: 1,
+        fontSize: '15px',
+        fontWeight: 'bold',
+        color: 'rgba(0, 0, 0, 0.7)',
+        textAlign: 'center',
+        marginLeft:"100px",
+        marginRight:"100px"}}>What our students say!</h5><br/>
 
       <div style={{ overflow: 'hidden' }}>
         <marquee scrollamount="3" direction="left" loop="infinite">
@@ -126,7 +138,12 @@ function Reviews() {
           </div>
         </marquee>
       </div>
+      <br/>
+      
+      
     </div>
+
+    
   );
 }
 

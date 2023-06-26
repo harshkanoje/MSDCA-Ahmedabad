@@ -6,7 +6,7 @@ function About() {
       <h2 style={{
         fontFamily: 'PT sans',
         color: '#65A0FB',
-        fontSize: '80px',
+        fontSize: '50px',
         fontWeight: 'bold',
         textAlign: 'center',
       }}>Who we are</h2>

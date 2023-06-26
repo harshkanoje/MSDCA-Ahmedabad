@@ -5,15 +5,15 @@ function Facilities() {
     <div><br/><br/>
     <h2 style={{fontFamily: 'PT sans',
     color: '#65A0FB',
-    fontSize: '80px',
+    fontSize: '50px',
     fontWeight: 'bold',
     textAlign: 'center',
-    marginLeft: '28px'}}>Facilities</h2><br/>
+    marginLeft: '28px'}}>Facility</h2><br/>
     <p style={{flex: 1,
  fontSize: "15px",
   fontWeight: "bold",
   
-  height: "200px",
+  
  
     
     }}> 
@@ -25,8 +25,9 @@ function Facilities() {
     
     
     
-    
+    <br/>
     </div>
+    
   )
 }
 

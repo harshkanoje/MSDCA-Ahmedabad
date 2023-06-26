@@ -8,6 +8,8 @@ import Header from './Components/Header';
 import Navbar from './Components/Navbar';
 import Reviews from './Components/Reviews';
 import Members from './Components/Members';
+import Images from './Components/Images';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
      <Centers/>
      <Reviews/>
      <Members/>
+     <Images/>
+     <Contact/>
      
     </div>
   );
