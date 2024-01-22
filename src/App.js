@@ -10,6 +10,10 @@ import Reviews from './Components/Reviews';
 import Members from './Components/Members';
 import Images from './Components/Images';
 import Contact from './Components/Contact';
+import Why from './Components/Why';
+import Achievement from './Components/Achievement';
+import Concept from './Components/Concept';
+import Ambassadors from './Components/Ambassadors';
 
 function App() {
   return (
@@ -19,10 +23,18 @@ function App() {
      <About/>
      <Features/>
      <Facilities/>
+     <Achievement/>
+     <br/>
      <Centers/>
+     <Why/>
+     <br/>
+     <Concept/>
+     <br/>
      <Reviews/>
+     <br/>
      <Members/>
      <Images/>
+     <Ambassadors/>
      <Contact/>
      
     </div>

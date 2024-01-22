@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-transparent fixed-top" style={{ backgroundColor: 'transparent', backdropFilter: 'blur(10px)', borderRadius: '20px' }}>
+    <nav className="navbar navbar-expand-lg navbar-transparent fixed-top" style={{ backgroundColor: 'white', borderRadius: '20px' }}>
       <div className="container">
         <a className="navbar-brand" href="#" style={{ fontFamily: 'PT sans', color: '#65A0FB', fontSize: '30px', fontWeight: 'bold', textAlign: 'center' }}>
           <img src="./images/logo.png" alt="Logo" style={{ height: '50px', width: '100px', marginTop: '-2px' }} />
